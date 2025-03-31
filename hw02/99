@@ -1,0 +1,27 @@
+def minmax (nums):
+    return min(nums), max(nums)
+
+
+
+
+def main ():
+    #text_input = "3,4,21,3,5,31,2"
+    text_input =>
+    print(text_input)
+    print(text_input.split(","))
+    nums = []
+    for text in text_input.split(","):
+        nums.append(int(text))
+    nums = [int(x) for x in text_input.split(",")]
+    nums = [A for B in C ]
+    print(nums)
+    numbers = [ 34, 42, 5, 7, 2, 4, 57, 89]
+
+
+
+    print(f"최댓값은 {mx}입니다.")
+    print(f"최소값은 {mi}입니다.")
+
+
+    if __name__ == "__main__":
+        main()
