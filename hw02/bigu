@@ -1,0 +1,19 @@
+def largest(nums):
+    largest_num = nums [0]
+    for num in nums:
+        if num > largest_num:
+            largest_num = num
+    return largest_num
+
+
+def main ():
+    #a = 56
+    #b = 9
+    #c = 6
+    #d = 55
+    nums = [1,2,3,4,5]
+    print(f"가장 큰 숙자는 {largest(nums)}입니다.")
+
+
+if __name__== "__main__":
+    main()
