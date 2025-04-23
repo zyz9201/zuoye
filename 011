@@ -1,0 +1,36 @@
+def gdd_season(tavg,dates):
+    base_temp = 5
+    temp_cum = 0
+    for i in range(len(tavg)):
+        t = tavg[i]
+        if dates[i][1] in [5,6,7,8,9]:
+            if t >= base_temp:
+            temp_cum += (t - base_temp)
+
+    return temp_cum
+
+
+
+def gdd(tage):
+    base_temp = 5
+    temp_cum = 0
+    for t in tavg:
+        if t>= base_temp:
+            temp_cum += (t-base_temp)
+    return temp_cum
+
+
+def main():
+    filename = "./weather(146)_2001-2022.csv"
+    dates = get_weather_date(filename)
+    tavgs = get_weather_data(filename,4)
+
+    print(f" {gdd(tavg)}")
+    print(f" {gdd_season(tavg,dates)}")
+
+
+
+
+
+if __name__ =="__main__":
+    main()
