@@ -39,6 +39,8 @@ if __name__ =="__main__":
 t,date  zip
 
 
+print {gdd([t for t, date in zip (tavg.dates) if date[1] in
+
 
 
 
